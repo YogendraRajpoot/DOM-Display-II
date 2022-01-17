@@ -1,0 +1,45 @@
+        body {
+            background-color: rgb(60, 89, 144);
+        }
+        #button{
+            margin-left:40% ;
+        }
+
+        #main {
+            border: 2px solid black;
+            margin: auto;
+            background-color: rgb(111, 140, 195);
+            width: 50%;
+            height: 200px;
+        }
+
+        form {
+            margin: auto;
+            /* align-items: center ; */
+            width: fit-content;
+            display: flex;
+            flex-direction: column;
+        }
+
+        form>div {
+            align-content: center;
+            margin-top: 10px;
+        }
+
+        #div2 {
+            margin: 20px auto;
+            height: auto;
+            width: max-content;
+            border: 2px solid rgb(23, 34, 54);
+        }
+
+        table {
+            background-color: rgb(111, 140, 195);
+            border: 2px solid black;
+            /* margin: 20px auto; */
+        }
+
+        td,
+        tr {
+            border: 2px solid black;
+        }
